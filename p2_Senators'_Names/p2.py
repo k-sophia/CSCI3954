@@ -7,7 +7,7 @@ Resources: pandas.pydata.org for loc and stackabuse.com for writing csv file
 import pandas as pd
 
 inputFile = input("Enter input file name: ") #legislators-current.csv
-outputFileName = input("Enter output file name: ") #result.csv
+outputFileName = input("Enter output file name: ") #results.csv
 
 read = pd.read_csv(inputFile)
 senateClass = read.loc[read['senate_class'] >= 1]
