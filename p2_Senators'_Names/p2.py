@@ -17,5 +17,3 @@ data = {'first_name': senateClass["first_name"],
 
 df = pd.DataFrame(data, columns= ['first_name', 'last_name'])
 df.to_csv(outputFileName, index=False)
-
-print(df)

@@ -13,6 +13,3 @@ read = pd.read_csv(inputFile)
 
 selectedRows = read.loc[(read['Grade'] == '3') & (read['Year'] == 2019)]
 selectedRows.to_csv(outputFileName, index=False)
-
-print(selectedRows)
-

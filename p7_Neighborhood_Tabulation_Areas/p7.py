@@ -23,5 +23,3 @@ data = {
 
 df = pd.DataFrame(data)
 df.to_csv(outputFileName, index=False)
-
-print(df)

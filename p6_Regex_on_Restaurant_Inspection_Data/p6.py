@@ -12,7 +12,6 @@ outputFile = input("Enter output file name: ") #results.csv
 
 read = pd.read_csv(inputFile)
 
-
 #change phone numbers format
 def formatPhoneNumber(string):
     digits = r"[0-9]{10}"
@@ -42,8 +41,6 @@ def formatInspectionDate(string):
         newDate = re.sub(dateFormat, year + "/" + month + "/" + day, string)
         return newDate
 
-
-
 #set new data
 data = read
 data['PHONE'] = read['PHONE'].apply(formatPhoneNumber)
@@ -51,10 +48,5 @@ data['INSPECTION DATE'] = read['INSPECTION DATE'].apply(formatInspectionDate)
 data['restaurant_name'] = read['DBA'].str.title()
 data['thai_boolean'] = data['restaurant_name'].str.contains(r'Thai')
 
-
 df = pd.DataFrame(data)
 df.to_csv(outputFile, index=False)
-
-print(df)
-
-

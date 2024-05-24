@@ -31,7 +31,3 @@ data = {
 
 df = pd.DataFrame(data, columns= ['Title', 'URL'])
 df.to_csv(outputFileName, index=False)
-
-print(df)
-
-

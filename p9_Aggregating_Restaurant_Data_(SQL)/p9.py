@@ -28,8 +28,6 @@ GROUP BY "CUISINE DESCRIPTION"
 '''
 cuisine = psql.sqldf(cuisineSearch)
 cuisine.to_csv(prefix + 'Cuisines11224.csv', index=False)
-#print(cuisine)
-
 
 #Counts
 countSearch = '''
@@ -40,8 +38,6 @@ GROUP BY "CUISINE DESCRIPTION"
 '''
 count = psql.sqldf(countSearch)
 count.to_csv(prefix + 'Counts11224.csv', index=False)
-#print(count)
-
 
 #Boro
 boroSearch = '''
@@ -51,6 +47,3 @@ GROUP BY "BORO"
 '''
 boro = psql.sqldf(boroSearch)
 boro.to_csv(prefix + 'Boro.csv', index=False)
-print(boro)
-
-
