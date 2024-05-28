@@ -4,7 +4,8 @@ Test driver for Program 42
 
 import pandas as pd
 import numpy as np
-import p42, p38
+import p42
+import p38_Ticket_Prep.p38 as p38
 
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
