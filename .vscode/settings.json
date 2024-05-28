@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./p38_Ticket_Prep"
+    ]
+}
