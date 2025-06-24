@@ -1,6 +1,4 @@
 """
-Name: Kelly Camacho
-Email: kelly.camacho02@myhunter.cuny.edu
 Resources: jakevdp.hithub.io for MiniBatchKMeans
 """
 
