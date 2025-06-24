@@ -1,6 +1,4 @@
 """
-Name: Kelly Camacho
-Email: kelly.camacho02@myhunter.cuny.edu
 Resources: w3schools.com for OR statements
 """
 

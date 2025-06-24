@@ -1,7 +1,6 @@
 """
-Name: Kelly Camacho
-Email: kelly.camacho02@myhunter.cuny.edu
-Resources: w3schools.com for numpy array and docs.scripy.org for scipy.norm.pdf
+Resources: w3schools.com for numpy array  
+           docs.scripy.org for scipy.norm.pdf
 """
 
 import pandas as pd

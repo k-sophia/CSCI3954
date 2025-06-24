@@ -1,7 +1,6 @@
 """
-Name: Kelly Camacho
-Email: kelly.camacho02@myhunter.cuny.edu
-Resources: w3resource for row count, w3schools.com for LEFT JOIN
+Resources: w3resource for row count
+           w3schools.com for LEFT JOIN
 """
 
 import pandas as pd

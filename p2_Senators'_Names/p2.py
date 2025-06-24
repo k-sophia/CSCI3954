@@ -1,6 +1,4 @@
 """
-Name: Kelly Camacho
-Email: kelly.camacho02@myhunter.cuny.edu
 Resources: pandas.pydata.org for loc and stackabuse.com for writing csv file
 """
 

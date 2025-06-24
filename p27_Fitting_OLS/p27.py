@@ -1,8 +1,6 @@
 """
-Name: Kelly Camacho
-Email: kelly.camacho02@myhunter.cuny.edu
 Resources: inferentialthinking.com for regression
-            geeks for geeks stat.stdev and pearsonr
+           geeks for geeks stat.stdev and pearsonr
 """
 
 import pandas as pd

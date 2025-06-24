@@ -1,6 +1,4 @@
 """
-Name: Kelly Camacho
-Email: kelly.camacho02@myhunter.cuny.edu
 Resources: textbook.ds100.org for re
            newbedev.com for re.findall
 """

@@ -1,6 +1,4 @@
 """
-Name: Kelly Camacho
-Email: kelly.camacho02@myhunter.cuny.edu
 Resources: Lecture Slides and geeksforgeeks.com for concat
 """
 
